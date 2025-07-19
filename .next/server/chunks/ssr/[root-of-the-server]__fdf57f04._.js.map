@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/rezayw4/Desktop/qurbanqu/app/%28public%29/privacy/page.tsx"],"sourcesContent":["export default function PrivacyPolicyPage() {\n  return (\n    <div className=\"max-w-3xl mx-auto p-6 space-y-4\">\n      <h1 className=\"text-3xl font-bold\">Kebijakan Privasi</h1>\n      <p>\n        QurbanQu menghargai privasi Anda. Kami hanya mengumpulkan informasi yang diperlukan untuk proses pendaftaran, login, dan transaksi.\n      </p>\n      <p>\n        Informasi pribadi seperti email, nomor telepon, dan tanggal lahir hanya digunakan untuk keperluan internal dan tidak dibagikan ke pihak ketiga.\n      </p>\n      <p>\n        Kami menggunakan cookie untuk meningkatkan pengalaman pengguna. Dengan menggunakan situs ini, Anda menyetujui kebijakan ini.\n      </p>\n      <p>\n        Jika Anda memiliki pertanyaan, silakan hubungi kami melalui halaman kontak.\n      </p>\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,8OAAC;0BAAE;;;;;;0BAGH,8OAAC;0BAAE;;;;;;0BAGH,8OAAC;0BAAE;;;;;;0BAGH,8OAAC;0BAAE;;;;;;;;;;;;AAKT","debugId":null}}]
+}

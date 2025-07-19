@@ -1,0 +1,16 @@
+{
+  "node": {
+    "00ed3d46941ea4c01b3e55d84c718f8301d185ffad": {
+      "workers": {
+        "app/(public)/page": {
+          "moduleId": "[project]/.next-internal/server/app/(public)/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/(public)/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(public)/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

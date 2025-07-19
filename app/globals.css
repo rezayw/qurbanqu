@@ -1,0 +1,45 @@
+@import 'keen-slider/keen-slider.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply flex flex-col min-h-screen bg-gradient-to-br from-qcream via-qblue to-white text-[#1f2937];
+    
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-bold text-qgreen;
+  }
+
+  a {
+    @apply text-qgreen;
+  }
+}
+
+@layer components {
+  .btn-primary {
+  @apply bg-qgreen text-white px-6 py-3 rounded-xl font-semibold shadow hover:bg-[#064e3b] transition;
+  }
+
+  .card {
+    @apply bg-white border border-[#d1fae5] shadow-md p-4 hover:shadow-lg transition;
+  }
+
+  .section-title {
+    @apply text-2xl md:text-3xl font-bold text-qgreen mb-4 text-center;
+  }
+
+  .section-subtitle {
+    @apply text-gray-600 text-center mb-8 max-w-2xl mx-auto;
+  }
+}

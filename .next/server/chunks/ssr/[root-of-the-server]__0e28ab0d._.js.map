@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":["file:///Users/rezayw4/Desktop/qurbanqu/app/components/TawkButton.tsx"],"sourcesContent":["'use client'\n\nimport { useEffect } from 'react'\n\nexport default function TawkButton() {\n  useEffect(() => {\n    const tawkURL = process.env.NEXT_PUBLIC_TAWK_URL\n    console.log('Tawk.to script loading:', tawkURL)\n\n    if (typeof window !== 'undefined' && tawkURL && !(window as any).Tawk_API) {\n      const script = document.createElement('script')\n      script.src = tawkURL\n      script.async = true\n      script.charset = 'UTF-8'\n      script.crossOrigin = 'anonymous'\n      document.body.appendChild(script)\n      console.log('Tawk.to script appended.')\n    }\n  }, [])\n\n  return null\n}\n"],"names":[],"mappings":";;;AAEA;AAFA;;AAIe,SAAS;IACtB,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACR,MAAM;QACN,QAAQ,GAAG,CAAC,2BAA2B;QAEvC;;IASF,GAAG,EAAE;IAEL,OAAO;AACT","debugId":null}}]
+}
